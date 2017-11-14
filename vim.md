@@ -5,6 +5,11 @@ On a VI document, "echap" and ":"
     set number
     set syntax on  
   
+Command to add # in all document or from line 5 to 50 for example
+  
+    0,$s/^/#/
+    5,50s/^/#/
+  
 # Disable vim automatic visual mode on mouse select
   
 ## Tested and work fine
