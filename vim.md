@@ -1,10 +1,10 @@
 # Command fast and usefull
 
 On a VI document, "echap" and ":"
-
+`
 set number
 set syntax on
-
+`
 
 # Disable vim automatic visual mode on mouse select :
 
