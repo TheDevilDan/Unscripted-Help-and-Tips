@@ -13,17 +13,17 @@ On a VI document, "echap" and ":"
   
 and edit the line 70 for remove the "a" character :  
   
-#### Original
+#### Original code
   
-    69 if has('mouse')  
-    70   set mouse=a  
-    71 endif  
+    69 if has('mouse')
+    70   set mouse=a
+    71 endif
   
-#### New
+#### New code (delete "a")
   
-    69 if has('mouse')  
-    70   set mouse=a  
-    71 endif  
+    69 if has('mouse')
+    70   set mouse=
+    71 endif
   
 ## Non tested
   
